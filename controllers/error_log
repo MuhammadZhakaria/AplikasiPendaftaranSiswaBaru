@@ -1,0 +1,42 @@
+[10-Jun-2024 05:27:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/psbf3645/public_html/controllers/getCounterUsers.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/psbf3645/public_html/controllers/getCounterUsers.php on line 22
+[10-Jun-2024 05:27:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/psbf3645/public_html/controllers/getCounterUsers.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/psbf3645/public_html/controllers/getCounterUsers.php on line 22
+[10-Jun-2024 05:30:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/psbf3645/public_html/controllers/getCounterUsers.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/psbf3645/public_html/controllers/getCounterUsers.php on line 22
+[10-Jun-2024 05:32:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/psbf3645/public_html/controllers/getCounterUsers.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/psbf3645/public_html/controllers/getCounterUsers.php on line 22
+[13-Jun-2024 12:06:07 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataSekolahAction.php:37) in /home/psbf3645/public_html/controllers/dataSekolahAction.php on line 43
+[13-Jun-2024 12:06:21 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataKeluargaAction.php:42) in /home/psbf3645/public_html/controllers/dataKeluargaAction.php on line 48
+[13-Jun-2024 12:06:48 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataKeluargaAction.php:42) in /home/psbf3645/public_html/controllers/dataKeluargaAction.php on line 48
+[13-Jun-2024 12:06:56 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataKeluargaAction.php:42) in /home/psbf3645/public_html/controllers/dataKeluargaAction.php on line 48
+[13-Jun-2024 12:07:01 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataSekolahAction.php:37) in /home/psbf3645/public_html/controllers/dataSekolahAction.php on line 43
+[13-Jun-2024 12:07:13 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataKeluargaAction.php:42) in /home/psbf3645/public_html/controllers/dataKeluargaAction.php on line 48
+[13-Jun-2024 12:07:26 Asia/Jakarta] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/psbf3645/public_html/controllers/dataBerkasAction.php on line 12
+[13-Jun-2024 12:07:26 Asia/Jakarta] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/psbf3645/public_html/controllers/dataBerkasAction.php on line 13
+[13-Jun-2024 12:07:26 Asia/Jakarta] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/psbf3645/public_html/controllers/dataBerkasAction.php on line 14
+[13-Jun-2024 12:07:26 Asia/Jakarta] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/psbf3645/public_html/controllers/dataBerkasAction.php on line 15
+[13-Jun-2024 12:07:26 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataBerkasAction.php:38) in /home/psbf3645/public_html/controllers/dataBerkasAction.php on line 44
+[14-Jun-2024 15:49:51 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/verificationPendaftaran.php:30) in /home/psbf3645/public_html/controllers/verificationPendaftaran.php on line 37
+[19-Jun-2024 01:18:07 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/verificationPendaftaran.php:30) in /home/psbf3645/public_html/controllers/verificationPendaftaran.php on line 37
+[19-Jun-2024 01:46:09 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataBerkasAction.php:38) in /home/psbf3645/public_html/controllers/dataBerkasAction.php on line 44
+[19-Jun-2024 01:46:40 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataKeluargaAction.php:42) in /home/psbf3645/public_html/controllers/dataKeluargaAction.php on line 48
+[19-Jun-2024 01:46:43 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataKeluargaAction.php:42) in /home/psbf3645/public_html/controllers/dataKeluargaAction.php on line 48
+[19-Jun-2024 01:47:07 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataSekolahAction.php:37) in /home/psbf3645/public_html/controllers/dataSekolahAction.php on line 43
+[19-Jun-2024 01:47:13 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/verificationPendaftaran.php:30) in /home/psbf3645/public_html/controllers/verificationPendaftaran.php on line 37
+[24-Jun-2024 11:49:46 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataKeluargaAction.php:42) in /home/psbf3645/public_html/controllers/dataKeluargaAction.php on line 48
+[24-Jun-2024 11:50:10 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataKeluargaAction.php:42) in /home/psbf3645/public_html/controllers/dataKeluargaAction.php on line 48
+[24-Jun-2024 12:27:54 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataSekolahAction.php:37) in /home/psbf3645/public_html/controllers/dataSekolahAction.php on line 43
+[24-Jun-2024 12:28:17 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataSekolahAction.php:37) in /home/psbf3645/public_html/controllers/dataSekolahAction.php on line 43
+[24-Jun-2024 12:28:24 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataSekolahAction.php:37) in /home/psbf3645/public_html/controllers/dataSekolahAction.php on line 43
+[24-Jun-2024 12:30:26 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataKeluargaAction.php:42) in /home/psbf3645/public_html/controllers/dataKeluargaAction.php on line 48
+[24-Jun-2024 12:40:30 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataSekolahAction.php:37) in /home/psbf3645/public_html/controllers/dataSekolahAction.php on line 43
+[24-Jun-2024 12:40:37 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/psbf3645/public_html/controllers/dataKeluargaAction.php:42) in /home/psbf3645/public_html/controllers/dataKeluargaAction.php on line 48

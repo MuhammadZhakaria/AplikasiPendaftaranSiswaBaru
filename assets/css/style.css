@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Rubik:wght@400;500;700&display=swap");
+
+img {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  --card-hover-box-shadow: 0 0.5rem 1rem #020204;
+  --card-box-shadow: 1px 5px 7.5px #161625;
+  --bg-color: rgba(48, 48, 53, 0.96);
+  --border-radius: 6px;
+  --border-color: rgba(53, 53, 82, 0.8);
+  --text-color: #f1f1f1;
+
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar {
+  height: auto;
+  box-shadow: none;
+}
+
+.navbar.scrolled {
+  background-color: #33334e;
+  backdrop-filter: blur(10px);
+  transition: background-color 200ms ease-in;
+}
+
+.container .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+.nav-item .nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: rgb(255, 255, 255);
+  margin-right: 1rem;
+}
+
+.nav-item .nav-link:hover {
+  color: #a04d34;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  text-decoration: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  display: inline-block;
+  padding: 6px 0;
+  text-align: center;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 12px;
+  line-height: 1;
+  border-radius: 3px;
+}
+
+.content:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: radial-gradient(
+    ellipse farthest-corner at center,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+
+.content {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  height: 100vh;
+  padding-top: 90px;
+  position: relative;
+  color: white;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 30px;
+  background-attachment: fixed;
+}
+
+.content {
+  position: relative; /* Menetapkan posisi relatif untuk konten */
+  z-index: 2; /* Menempatkan konten di atas gambar latar belakang */
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content-news {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sc-daftar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.content-daftar {
+  max-width: 100%;
+  height: 450px;
+  background-image: url(../images/students-picss.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  padding-top: 90px;
+  position: relative;
+  color: white;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 30px;
+  background-attachment: fixed;
+}
+
+.content-daftar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: brightness(75%);
+  backdrop-filter: blur(4px); /* Menambahkan efek blur ke latar belakang */
+  -webkit-backdrop-filter: blur(
+    4px
+  ); /* Untuk browser yang mendukung prefix vendor */
+  z-index: -1; /* Memastikan latar belakang terletak di bawah teks dan elemen lainnya */
+}
+
+/* Ganti warna teks jika perlu, agar terlihat lebih jelas di atas latar belakang blur */
+.content-daftar h2 {
+  color: #fff;
+}
+
+.sc-daftar {
+  margin-top: 50px;
+  color: white;
+}
+
+.desct-content {
+  width: 65%;
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 768px) {
+  .desct-content {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.product .container {
+  width: 100%;
+}
+
+.product .s-block {
+  box-shadow: var(--card-box-shadow);
+  border-radius: var(--border-radius);
+  transition: 0.3s ease-in;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.product .s-block:hover {
+  box-shadow: var(--card-hover-box-shadow);
+  transition: 0.3s ease-in;
+}
+
+.product .s-block h3 {
+  color: var(--title-color);
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.product .s-block p {
+  color: var(--text-color);
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.s-block a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.product .container h1 {
+  color: var(--text-color);
+}
+.product .container p {
+  color: var(--text-color);
+}
+
+.map iframe {
+  width: 100%;
+  min-height: 330px;
+  padding: 10px;
+}
+
+.footer ul.social-media li a {
+  color: var(--text-color);
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+
+  border-radius: 50%;
+  text-align: center;
+}
+
+.footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.footer ul.social-media li a:hover {
+  color: rgb(0, 148, 141);
+  transition: 0.3s ease;
+}
